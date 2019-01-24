@@ -93,7 +93,7 @@ public class Admin {
 	public static void showAllStudentDetail(){
 		Student[] student = studschedular.showAllStudentDetail();
 		for(int i=0;student[i]!=null;i++) {
-			System.out.println((i+1)+".Student Roll Number : "+student[i].getRollNo());
+			System.out.println(("Student Roll Number : "+student[i].getRollNo());
 			System.out.println("Student Name : "+student[i].getName());
 			Course[] c = student[i].getCourse();
 			System.out.println("Student Courses : "+student[i].getRollNo());
